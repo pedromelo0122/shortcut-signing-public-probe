@@ -5,7 +5,7 @@ permissions:
   contents: read
 jobs:
   sign:
-    runs-on: macos-15
+    runs-on: macos-15-intel
     timeout-minutes: 8
     steps:
       - name: Generate harmless shortcut and test official signing
